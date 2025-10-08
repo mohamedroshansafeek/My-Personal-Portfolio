@@ -10,6 +10,7 @@ import TaskBuddy from "../assets/TaskBuddy.png";
 import TripAdvisor from "../assets/TripAdvisor.png";
 import Udemy from "../assets/Udemy.png";
 import RevealOnScroll from "../Ui/RevealOnScroll";
+import PersonalPortfolio from "../assets/portfolio.png"
 
 function Projects() {
   const [projects] = useState([
@@ -57,6 +58,15 @@ function Projects() {
       tech: ["React", "API", "TailwindCSS"],
       link: "https://github.com/mohamedroshansafeek/Movie-Explorer",
       live: "https://movie-explorer-psi-blue.vercel.app",
+    },
+    {
+      image: PersonalPortfolio,
+      name: "Personal Portfolio",
+      brief: 
+      "✨ A modern personal portfolio developed using React and Tailwind CSS, highlighting projects, professional experience, and interactive UI components to demonstrate front-end skills.",
+      tech: ["HTML","TailwindCSS","JavaScript","React","Vite","Vercel"],
+      link: "https://github.com/mohamedroshansafeek/My-Personal-Portfolio",
+      live: "https://my-personal-portfolio-one-zeta.vercel.app"
     },
     {
       image: TaskBuddy,
