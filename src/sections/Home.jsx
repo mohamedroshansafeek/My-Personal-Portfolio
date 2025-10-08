@@ -24,7 +24,7 @@
 //             web applications. I focus on building elegant UIs, smooth performance, and 
 //             meaningful digital experiences that users love.
 //           </p>
-//           <div className="flex justify-center items-center space-x-4">
+//           <div className="flex justify-center items-center space-x-4 z-20">
 //             <a
 //             className="bg-gradient-to-r flex flex-row from-teal-500 to-indigo-600 py-3 px-6 rounded hover:-translate-y-1   hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]  font-medium transition"
 //             href="#contact"
@@ -81,7 +81,7 @@ function Home() {
         </p>
 
         
-        <div className="flex justify-center items-center space-x-4">
+        <div className="flex justify-center items-center space-x-4 z-20">
           
           <a
             href="#contact"
